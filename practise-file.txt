@@ -1,1 +1,19 @@
 This is a practise file
+Few things i understood in the process: 
+ echo "This is a practise file" > practise-file.txt #Echo command not only creates a file but also add info in the file without needing to open vim or nano
+First command to enter: git config --global user.name "Nihal"
+second need to config email id: git config --global user.email "reenasheikh@gmail.com"
+git init # initializes the git
+git status 
+mkdir example (example named dir is created)
+cd example/ (taking us to the example dir from here we can create files)
+touch example/first_file_in example #created file in example dir
+git add
+git commit -m "give some heading to identify the files that you are commiting here"
+git status
+git checkout master #here master is a branch and we are getting into it
+git checkout test # same as above
+git remote -v #to check the repositories linked to git bash
+git remote add origin https:/give the url from git repo
+git remote -v
+git push -u origin master
